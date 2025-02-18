@@ -14,13 +14,17 @@ This project detects facial expressions using a deep learning model trained on i
 1️⃣ Clone the Repository  
 git clone https://github.com/apanda26/Facial-Expression-Recognition.git
 cd Facial-Expression-Recognition
+
 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
 3️⃣ Run the Model on Test Images
 python test.py --image sample.jpg
+
 4️⃣ Run Real-Time Emotion Detection
 python real_time_demo.py
 Press Q to exit the webcam interface.
+
 Training the Model (Optional)
 If you want to train the model from scratch, use:
 python train.py
